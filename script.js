@@ -48,11 +48,10 @@ function generatePassword(){
           return "";
 
       } else {
-            // Generate random characters to add to password
-            for (var i = 0; i < characters.passLength; i++) {
-                var randCharIndex =Math.floor(Math.random() * characters.choosenChars.length);
-                characters.passGenerated.push(characters.choosenChars[randCharIndex]);
-                
+          // Generate random characters to add to password
+          for (var i = 0; i < characters.passLength; i++) {
+              var randCharIndex =Math.floor(Math.random() * characters.choosenChars.length);
+              characters.passGenerated.push(characters.choosenChars[randCharIndex]);                
             }
                 
             // display password
@@ -65,8 +64,7 @@ function generatePassword(){
       alert("Please select at least one charater type.");
       return "";
   }
-
-
+  
 }
 
 // Write password to the #password input

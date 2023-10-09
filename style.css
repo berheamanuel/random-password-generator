@@ -1,3 +1,4 @@
+/* ------------ universal selector --------- */
 *,
 *::before,
 *::after {
@@ -12,6 +13,8 @@ body,
   padding: 0;
 }
 
+/* -------------- body ------------ */
+
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
@@ -22,6 +25,8 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+/* ----------- header ---------- */
 
 header {
   text-align: center;
@@ -72,6 +77,8 @@ header {
   clear: both;
 }
 
+/* -------- styling the button ------  */
+
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -97,6 +104,8 @@ button[disabled] {
   float: right;
 }
 
+/* ---------- styling texe area --------- */
+
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -117,6 +126,8 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+
+
 
 @media (max-width: 690px) {
   .btn {
