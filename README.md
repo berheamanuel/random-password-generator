@@ -28,8 +28,10 @@ THEN the password is either displayed in an alert or written to the page
 
 
 ## Screenshot
-    
-    ![screenshot](assets/images/screenshot.png)
+
+![Screenshot](<Assets/Screenshot .png>)
+![Screenshot1](<Assets/Screenshot1 .png>)
+     
     
 
 ## References
